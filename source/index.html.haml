@@ -5,6 +5,15 @@
   %p.doc
     = link_to 'read doc online', 'https://middlemanmapp.com', target: '_blank'
 
+.projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %p= project[:description]
+
+//%h1 friends
+//%ol
+//  - data.people.friends.each do |f|
+//    %li= f
 
 
 //<%= link_to(
