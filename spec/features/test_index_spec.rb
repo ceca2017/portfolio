@@ -1,10 +1,10 @@
 require 'spec_helper'
 
 describe 'index', type: :feature do
-
-  before  do
+  before do
     visit '/'
   end
+
 
   it 'says Middleman is fun' do
     expect(page).to have_selector 'h1'
