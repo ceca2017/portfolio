@@ -1,6 +1,8 @@
 ---
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+- name: ATM Challenge
+  languages: Ruby
+  description: Keeps track of a persons account balance and ATM transactions. To be run in IRB.
 
-- name: FizzBuzz
-  description: My first Test driven ruby project
+- name: Library challenge
+  languages: Ruby (storage in Yaml)
+  description: A library has a list of its books. A patron can see available books and borrow one. A return date is then set.
