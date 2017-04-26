@@ -3,32 +3,15 @@
 .welcome
   %h1 Portfolio of Claes Enlund
 
-
-
-
 .projects
   %h1 Projects
   - data.projects.each do |project|
     %div.proj-title Title: #{project[:name]}
-    %div.proj-title Languages: #{project.languages}
+    %div.proj-language Languages: #{project.languages}
     %div.desciption Description: #{project[:description]}
     %p
+  %p All projects have been done using Git, GitHub as well as a test driven design
 
 .aboutme
   %h1 About me
   %div.desciption Following the Craft Academy bootcamp to learn about coding. The focus is on web development. Tools we learn include Ruby, JavaScript, jQuery, Git, html, css to name a few.
-
-
-
-
-//%h1 friends
-//%ol
-//  - data.people.friends.each do |f|
-//    %li= f
-
-
-//<%= link_to(
-//  "Read Documentation",
-//  "https://middlemanapp.com/basics/templating_language/",
-//  target: "_blank"
-//) %>

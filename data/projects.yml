@@ -6,3 +6,15 @@
 - name: Library challenge
   languages: Ruby (storage in Yaml)
   description: A library has a list of its books. A patron can see available books and borrow one. A return date is then set.
+
+- name: BMI Challenge
+  languages: Java Script, jQuery, HTML, css
+  description: BMI calculator that calculates the BMI based on the lenght and height entered by the user. There is a choice between metric and imperial measurement methods. Corresponding fields will show for the user to enter this info.
+
+- name: FizzBuzz Challenge
+  languages: Java Script, Jasmine for testing
+  description: Interface to user to enter a number and press a button. The result will be displayed for the user.
+
+- name: Slow Food Challenge
+  languages: Sinatra, Cucumber for testing
+  description: Restaurant menu with ability for visitor to order dishes and restaurant owner to have an admin section to update the menu. Forking and pair programming also done.

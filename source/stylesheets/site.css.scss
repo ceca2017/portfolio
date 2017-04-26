@@ -5,7 +5,7 @@ body {
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  //padding: 18vh 1rem;
+  padding: 30px;
   text-align: center;
 }
 
@@ -18,9 +18,23 @@ a {
   }
 }
 
+.proj-title {
+  font-size: 18px;
+  font-weight: bold;
+}
 
+.header {
+  left: 0;
+  bottom: 0;
+  color: black;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: 20px;
+  width: 100%;
+}
 
-.footer .header {
+.footer {
   left: 0;
   bottom: 0;
   color: black;
