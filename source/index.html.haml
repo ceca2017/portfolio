@@ -5,16 +5,18 @@
 
 #projects
   %h1 Projects
-  - data.projects.each do |project|
-    %div.proj-title #{project[:name]}
-    %div.proj-language
-      %strong Languages:
-      #{project.languages}
-    %div.description
-      %strong Description:
-      #{project[:description]}
+  .row.large-up-4
+    - data.projects.each do |project|
+      .column.column-block
+        %div.proj-title #{project[:name]}
+        %div.proj-language
+          %strong Languages and tools:
+          #{project.languages}
+        %div.description
+          %strong Description:
+          #{project[:description]}
   %p All projects have been done using Git, GitHub as well as a test driven design
 
 #aboutme
   %h1 About me
-  %div.description Following the Craft Academy bootcamp to learn about coding. The focus is on web development. Tools we learn include Ruby, JavaScript, jQuery, Git, html, css to name a few.
+  %div#am_descr Following the Craft Academy bootcamp to learn about coding. The focus is on web development. Tools we learn include Ruby, JavaScript, jQuery, Git, html, css to name a few.

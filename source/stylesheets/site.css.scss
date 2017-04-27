@@ -1,3 +1,5 @@
+//@import 'foundation/foundation.min';
+
 body {
   background-color: #13142f;
   color: white;
@@ -13,7 +15,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
 }
 
 li {
@@ -37,8 +38,20 @@ li a:hover {
   padding-top: 30px;
 }
 
-.description {
+.description, .proj-language {
+  text-align: left;
+}
+
+#am_descr {
   padding-bottom: 35px;
+}
+
+.proj {
+  box-sizing: border-box;
+  border: 2px;
+  border-color: white;
+  border-style: solid;
+  margin: 0px;
 }
 
 .proj-title {
@@ -51,6 +64,7 @@ li a:hover {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 
 .footer {
@@ -59,10 +73,8 @@ li a:hover {
   color: #333;
   background-color: #edeef6;
   position: fixed;
-  bottom: 0;
   height: 30px;
   width: 100%;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 3px;
   text-align: center;
 }

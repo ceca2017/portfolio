@@ -4,7 +4,7 @@
   description: Keeps track of a persons account balance and ATM transactions. To be run in IRB.
 
 - name: Library challenge
-  languages: Ruby (storage in Yaml)
+  languages: Ruby, Yaml
   description: A library has a list of its books. A patron can see available books and borrow one. A return date is then set.
 
 - name: BMI Challenge
