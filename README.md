@@ -1,3 +1,5 @@
+## Portfolio site 
+
 This site has a brief overview of some of the projects done by Claes Enlund.
 Most of them can be found at GitHub.
 
@@ -9,6 +11,7 @@ short descriptions of the projects.
 
 The site is published and can be found at:
 [http://myport.surge.sh]
+
 
 
 ### Technical details
