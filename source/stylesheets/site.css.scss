@@ -1,7 +1,9 @@
-//@import 'foundation/foundation.min';
+$back-color: #13142f;
+$text-headfoot-color: #333;
+$padding-leftright: 10px;
 
 body {
-  background-color: #13142f;
+  background-color: $back-color;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -19,23 +21,28 @@ ul {
 
 li {
     float: right;
-}
 
-li a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+  a {
+      display: block;
+      color: $text-headfoot-color;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
 
-li a:hover {
-    color: white;
-    background-color: #13142f;
+  a:hover {
+      color: white;
+      background-color: $back-color;
+  }
 }
 
 #welcome, #projects, #aboutme {
-  padding-top: 30px;
+  padding-top: 50px;
+}
+
+#proj_comm {
+  padding-left: $padding-leftright;
+  padding-right: $padding-leftright;
 }
 
 .description, .proj-language {
@@ -43,19 +50,13 @@ li a:hover {
 }
 
 #am_descr {
-  padding-bottom: 35px;
-}
-
-.proj {
-  box-sizing: border-box;
-  border: 2px;
-  border-color: white;
-  border-style: solid;
-  margin: 0px;
+  padding-bottom: 50px;
+  padding-left: $padding-leftright;
+  padding-right: $padding-leftright;
 }
 
 .proj-title {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: bold;
 }
 
@@ -70,11 +71,10 @@ li a:hover {
 .footer {
   left: 0;
   bottom: 0;
-  color: #333;
+  color: $text-headfoot-color;
   background-color: #edeef6;
   position: fixed;
   height: 30px;
   width: 100%;
   padding-top: 3px;
-  text-align: center;
 }
